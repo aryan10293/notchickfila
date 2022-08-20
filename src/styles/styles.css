@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar a:hover{
+    cursor: pointer;
+}
+.nav-links, .text-color{
+    text-decoration: none;
+    color: rgba(254,67,108,.99);
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: #c20726;
+}
+.clicked{
+    text-decoration: underline;
+    color: #c20726;
+}
+.text-color:hover{
+    text-decoration: underline;
+    color: #c20726;
+}
+.navbar ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 10px 30px;
+}
+
+i {
+    color: #c20726;
+}
+
+.button{
+    padding: 7px;
+    background-color: rgba(254,67,108,.99);
+    text-align: center;
+    color: white;
+    border-radius: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.button:hover{
+    background-color: #c20726;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.find-btn{
+    border: none;
+    color: rgba(254,67,108,.99);
+    background: none;
+    cursor: pointer;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-div i {
+    margin-right: 10px;
+}
+
+.line{
+    height: 50px;
+    width: 2px;
+    background-color: rgb(214, 214, 214);
+    margin: 0px 7px;
+}
+
+.span{
+    color: black;
+}
+/* header div styling  */
+.header{
+    display: flex;
+    height: 110px;
+    padding: 50px;
+    background: #f2f2f2;
+}
+.join{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    
+}
+.header .join .titleDiv h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #004f71;
+
+}
+.header .join .titleDiv p{
+    color: #004f71;
+    font-size: 24px;
+    font-weight: 900;
+}
+.header .join .phoneDiv img{
+    margin-right: 15px;
+    height: 80px;
+    width: 80px;
+}
+.otherDiv{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+}
+.header .otherDiv a{
+    text-decoration: none;
+    color: #004f71;
+    margin-right: 5px;
+    font-size: 12px;
+
+}
+.header .otherDiv i{
+    height: 10px;
+    width: 10px;
+}
+/* header div styling  */
+
+
+/* peach styling */
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+.text{
+    width: 50%;
+    padding: 30px;
+}
+.milkshake{
+    width: 50%;
+}
+.wrapper{
+    text-align: right;
+}
+.wrapper img{
+    width: 80%;
+    height: 80%;
+}
+.text h1, .h1header{
+    color: #c20726;
+    font-weight: 900;
+    font-size: 77px;
+    margin-bottom: 20px;
+}
+.order-div{
+    display: flex;
+    margin-top: 30px;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #c20726;
+    margin-right: 5px;
+    width: 220px;
+    padding: 15px;
+    border-radius: 30px;
+}
+.order img{
+    margin-right: 8px;
+}
+/* peach styling */
+
+/* menu styling */
+.menuHeader{
+    text-align: center;
+    padding: 30px;
+}
+
+.menuHeader h1{
+    color: #004f71;
+    margin-bottom: 7px;
+    font-size: 48px;
+}
+.menuHeader p{
+    font-size: 14px;
+    color: #6d787e;;
+}
+.img-chick{
+    width: 300px;
+    height: 300px;
+}
+
+.chickenDiv{
+    text-align: center;
+    margin-right: 20px;
+}
+.chickenDiv a {
+    margin: auto;
+}
+.chickenDiv h4{
+    color: #004f71;
+}
+.chickenDiv h4:hover{
+    cursor: pointer;
+    color: #c20726;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.chickenDiv p{
+    color: #485259;
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+}
+/* menu styling */
+
+/* comntact styling */
+    .contactHeader{
+        text-align: center;
+    }
+    .h1header{
+        color: #004f71;
+    }
+    .store{
+        margin-right: 10px;
+        text-align: center;
+        background: #f2f2f2;
+        padding: 30px;
+    }
+    .store h4{
+        color: #004f71;
+        margin: 5px 0;
+    }
+    .store p{
+        color: #6d787e
+    }
+    .hours{
+        margin-top: 10px;
+        text-align: center;
+        background: #f2f2f2;
+    }
+    .hours h2{
+        color: #004f71;
+        font-weight: 900;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .hours p{
+        margin-bottom: 10px;
+        color: #6d787e;
+    }
+
+    
+/* comntact styling */
